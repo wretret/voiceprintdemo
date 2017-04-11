@@ -16,7 +16,7 @@ public class Vocalprint {
         try {
             Log.d(TAG, "before load aiengine library");
             Log.d(TAG, "library path = " + System.getProperty("java.library.path"));
-            System.loadLibrary("aiengine");
+            System.loadLibrary("voice");
             Log.d(TAG, "after load aiengine library");
         } catch (UnsatisfiedLinkError e) {
             Log.e(TAG, "Please check useful libaiengine.so, and put it in your libs dir!");
